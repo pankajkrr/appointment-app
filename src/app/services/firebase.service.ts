@@ -47,6 +47,11 @@ export class FirebaseService {
     return this.afAuth.auth.currentUser.sendEmailVerification();
   }
 
+  // Reset Forggot password
+  ForgotPassword(passwordResetEmail) {
+    return this.afAuth.auth.sendPasswordResetEmail(passwordResetEmail);
+  }
+
 
   // Sign out 
   SignOut() {

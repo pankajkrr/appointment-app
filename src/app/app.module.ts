@@ -25,6 +25,7 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 import { ClientListComponent } from './components/client-list/client-list.component';
 import { AddClientComponent } from './components/add-client/add-client.component';
 import { HeaderComponent } from './components/common/header/header.component';
+import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 
 
 
@@ -37,7 +38,8 @@ import { HeaderComponent } from './components/common/header/header.component';
     VerifyEmailComponent,
     ClientListComponent,
     AddClientComponent,
-    HeaderComponent
+    HeaderComponent,
+    ForgotPasswordComponent
   ],
   imports: [
     BrowserModule,

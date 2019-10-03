@@ -39,9 +39,8 @@ export class LoginComponent implements OnInit {
       });
       this._firebase.SetUserData(res.user);
     }).catch((err) => {
-      console.log(err.message)
-      // this._common.errorAlert(err.message);
-      return this._toastr.error("", `${err.message}`, {
+      console.log(err.message,'this is testing---');
+      this._toastr.error("", `${err.message}`, {
         timeOut: 3000
       });
     })

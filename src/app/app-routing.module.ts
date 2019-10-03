@@ -10,6 +10,7 @@ import { RegisterComponent } from './components/register/register.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 import { ClientListComponent } from './components/client-list/client-list.component';
 import { AddClientComponent } from './components/add-client/add-client.component';
+import { ForgotPasswordComponent } from './components/forgot-password/forgot-password.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,10 @@ const routes: Routes = [
   {
     path: 'verify-email-address',
     component : VerifyEmailComponent,
+  },
+  {
+    path: 'forgot-password',
+    component: ForgotPasswordComponent
   },
   {
     path: '',
